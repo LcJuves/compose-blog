@@ -18,6 +18,8 @@ pluginManagement {
 dependencyResolutionManagement {
     repositories {
         maven("https://maven.aliyun.com/repository/public/")
+        // Desktop target has to add this repo
+        maven("https://jogamp.org/deployment/maven")
         google {
             mavenContent {
                 includeGroupAndSubgroups("androidx")
