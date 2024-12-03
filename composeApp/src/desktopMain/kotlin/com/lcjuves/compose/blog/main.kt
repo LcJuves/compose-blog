@@ -6,7 +6,7 @@ import androidx.compose.ui.window.application
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
-        title = "compose-blog",
+        title = "Liangcheng Juves' Compose Blog",
     ) {
         App()
     }
